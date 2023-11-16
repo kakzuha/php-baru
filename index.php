@@ -119,8 +119,7 @@
                         </div>
                         <div class="modal-body">
                             <h5 align="center">Apakah anda yakin ingin menghapus NIM
-                                <?php echo
-$data['nim'];?><strong><span class="grt"></span></strong> ?
+                                <?php echo $data['nim'];?><strong><span class="grt"></span></strong> ?
                             </h5>
                         </div>
                         <div class="modal-footer">
@@ -132,10 +131,6 @@ $data['nim'];?><strong><span class="grt"></span></strong> ?
                 </div>
             </div>
         </div>
-        <?php
-                                        }
-                                        ?>
-
     </table>
 </body>
 </html>
