@@ -49,7 +49,11 @@
                 <a href="ubah_mhs.php" data-toggle="modal" data-target="#editmhs<?php echo $data['nim'];?>">Edit</a>
                 <i class="fas fa-trash-alt bg-danger p-2 text-white rounded"></i>
                 <a href="hapus_mhs.php" data-toggle="modal" data-target="#deletemhs<?php echo $data['nim'];?>">Delete</a>
+            </td>
         </tr>
+        <?php
+                }
+        ?>
         <a href="#" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahmhs">
             <i class="fas fa-plus-circle mr-2"></i>TAMBAH DATA MAHASISWA
         </a>
